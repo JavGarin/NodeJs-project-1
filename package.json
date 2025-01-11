@@ -3,9 +3,10 @@
   "version": "0.0.1",
   "description": "Proyecto Node para curso",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "node src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "author": "Javier Garin",
   "license": "ISC",
